@@ -343,8 +343,8 @@ img {
 /* ===== HERO ===== */
 
 .hero {
-  background-color: #2e2f42;
   background-image: linear-gradient(
+      to bottom,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
@@ -412,7 +412,6 @@ img {
       url(../images/people-office-tab-1x.jpg);
     padding-top: 112px;
     padding-bottom: 112px;
-    max-width: 768px;
   }
 
   @media screen and (min-resolution: 2x) {
